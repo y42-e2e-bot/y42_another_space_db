@@ -1,10 +1,13 @@
 {
   "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/table",
   "columns": [
-    "timestamp",
-    "reason",
+    "created",
+    "updated",
+    "person_count",
     "object",
-    "email"
+    "name",
+    "type",
+    "id"
   ],
-  "import": "global_exclusions"
+  "import": "lists"
 }
